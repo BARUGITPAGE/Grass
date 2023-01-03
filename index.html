@@ -3,16 +3,37 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+<link rel="stylesheet" href="ApplyStyle.css">
 <script src="Jquery/Jquery.min.js"></script>
 </head>
 
 <body>
 	<img src="Jquery/photo_14598 (1).jpg" alt="" id="Grass">
 	<h1 id="Grasstouched" style="opacity: 0" >WOW YOU FINALLY TOUCHED SOME GRASS AFTER GAMING MORE THAN 1HOURS!!</h1>
+	<h1 id="Gaming" style="opacity: 0" >Do you want to go back to gaming?</h1>
+	<div>
+		<img src="Jquery/10-stupid-gaming-setups.webp" alt="" id="Backtogaming" style="opacity: 0" class="backtogame">
+		<div class="list">
+		<ul>
+			<li>
+				<a href="https://grabify.link/XMATER" id="#yes">YES</a>
+			</li>
+			<li>
+				<a href=""  id="#no">NO</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+	
 </body>
 </html>
 <script type="text/javascript">
 	$('#Grass').click(function(){
 		$('#Grasstouched').css({color:'Green', opacity:1})
+		$('#Backtogaming').css({opacity:1})
+		$('#Gaming').css({opacity:1})
+		$('#yes').css({opacity:1})
+		$('#no').css({opacity:1})
+		$('.list').css({opacity:1})
 	})
 </script>
