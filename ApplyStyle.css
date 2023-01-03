@@ -1,0 +1,23 @@
+.list{
+	opacity: 0
+}
+.list ul{
+	list-style: none;
+}
+.list ul li{
+	display: inline;
+	margin: 0 5px;
+	position: relative;
+}
+.list ul li a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: grey;
+	padding: 5px 30px;
+	border-radius: 100px;
+}
+.backtogame{
+	width: 50%;
+	height: 30%;
+}
